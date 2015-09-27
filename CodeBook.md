@@ -3,8 +3,8 @@ This is a code book for the tidy data set, called tidydataset, generated from th
 The accelerometer data for the Samsung study was collected in the time domain in units of standard gravity.  Angular velocity in radians per second was measured also. Both were collected at 50 data points per second. This data was filtered and transformed (see details in original sources). These variables were further transformed into frequency domain variables through a Fast Fourier Transfrom. Both time domain (t) and frequency domain variables (f) were included in the data set. Units for accel is standard gravity, for gyro is radians per second and freq are Hz. Variables in columns 3 through 81 are numeric. The variables in the tidy data set are:
 
 Column	Variable_Name
-3:5 	  	tBodyAcc-mean()-X, Y, Z\n
-6:8 	  	tBodyAcc-std()-X, Y, Z\n
+3:5 	  	tBodyAcc-mean()-X, Y, Z
+6:8 	  	tBodyAcc-std()-X, Y, Z
 9:11 	  	tGravityAcc-mean()-X, Y, Z
 12:14 	tGravityAcc-std()-X, Y, Z
 15:17 	tBodyAccJerk-mean()-X, Y, Z
